@@ -14,7 +14,7 @@ public class UniqueWords {
 		for (int i = 0; i < list.size(); i++)
 
 		{
-			// check if its unique
+			// check if the list is unique
 			boolean unique = true;
 			for (int j = 0; j < list.size(); j++) {
 				if (list.get(i) == list.get(j)) {
